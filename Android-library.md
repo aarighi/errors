@@ -41,7 +41,7 @@ buildscript {
 then push changes and test the build as explained in the [Troubleshooting](https://jitpack.io/docs/BUILDING/#troubleshooting) section of the Docs
 (for short: visit https://jitpack.io/com/github/User/Repo/Tag/build.log)
 
-When the tests pass, you may want to add a **tag** (or a GitHub *Release*) on the working commit, e.g.**1.0**. In order to use the library, just include it in your **Gradle dependencies**, like in the following example:
+When the tests pass, you may want to add a **tag** (or a GitHub *Release*) on the working commit, e.g. `1.0` . In order to use the library, just include it in your **Gradle dependencies**, like in the following example:
 ```Gradle
 implementation "com.github.YourUsername:mylib:1.0"
 ```
