@@ -33,10 +33,10 @@ buildscript {
 }
 ```
 * edit `mylib/build.gradle`:
-        * add `apply plugin: 'com.github.dcendents.android-maven'` on top
-        * if your code is on GitHub, set `group='com.github.YourUsername'`
-        * for BitBucket: `org.bitbucket.YourUsername`
-        * for GitLab: `com.gitlab.YourUsername`
+  * add `apply plugin: 'com.github.dcendents.android-maven'` on top
+  * if your code is on GitHub, set `group='com.github.YourUsername'`
+  * for BitBucket: `org.bitbucket.YourUsername`
+  * for GitLab: `com.gitlab.YourUsername`
 
 then push changes and test the build as explained in the [Troubleshooting](https://jitpack.io/docs/BUILDING/#troubleshooting) section of the Docs
 (for short: visit https://jitpack.io/com/github/User/Repo/Tag/build.log)
@@ -45,3 +45,4 @@ When the tests pass, you may want to add a **tag** (or a GitHub *Release*) on th
 ```Gradle
 implementation "com.github.YourUsername:mylib:1.0"
 ```
+(be sure to switch to the right domain if your repo is on BitBucket/GitLab)
