@@ -38,6 +38,8 @@ buildscript {
   * for BitBucket: `org.bitbucket.YourUsername`
   * for GitLab: `com.gitlab.YourUsername`
 
+* Check that `gradlew` and `gradlew.bat` exist in your root directory. If not, run `gradle wrapper` to generate them.
+
 then push changes and test the build as explained in the [Troubleshooting](https://jitpack.io/docs/BUILDING/#troubleshooting) section of the Docs
 (for short: visit https://jitpack.io/com/github/User/Repo/Tag/build.log)
 
