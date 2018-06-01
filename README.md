@@ -1,2 +1,2 @@
-# errors
-A collection of errors and solutions
+# Tips & tricks
+A collection of programming tricks, errors, problems and solutions
