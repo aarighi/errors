@@ -18,3 +18,18 @@ Common operations for Android apps. For Android libraries specific operations, c
 
 </manifest>
 ```
+
+## Save file on File System
+
+```Java
+path = new java.io.File(
+        Environment.getExternalStorageDirectory().toString()
+        + "/Android/path/to/file.txt", "Cartella"
+);
+if (!path.exists()) {
+    path.mkdirs();
+}
+
+// save File to 'path'
+
+```
