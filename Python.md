@@ -3,7 +3,7 @@
 On Windows: 
     mkvirtualenv-win
 
-Database connection:
+## Database connection
 
 ```python
     import pypyodbc
